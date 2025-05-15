@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sushizen</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/015980e04a.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo">
+                <h1>Sushizen</h1>
+            </div>
+            <ul class="nav-links">
+                <li><a href="#inicio">Inicio</a></li>
+                <li><a href="#menù">Menù</a></li>
+                <li><a href="#reservas">Reservas</a></li>
+                <li><a href="#contacto">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="inicio" class="hero">
+        <div class="hero-content">
+            <h2>Bienvenidos al Sushizen</h2>
+            <p>La mejor experiencia gastronomica</p>
+            <a href="#menu" class="btn">Ver menu</a>
+        </div>
+    </section>
+
+    <section id="menu" class="menu-section">
+        <h2>Nuestro Menù</h2>
+        <div class="menu-grid">
+            <div class="menu-item">
+                <img src="imagenes/sushi1.jpeg" alt="Sushi mixto">
+                <h3>Sushi Mixto</h3>
+                <p>Selecciòn variada de Nigiris y Makis</p>
+                <span class="precio">$32.500</span>
+            </div>
+            <div class="menu-item">
+                <img src="imagenes/sushi2.jpeg" alt="Sushi mixto">
+                <h3>Sashimi Premium</h3>
+                <p>Pescados crudos y/o mariscos</p>
+                <span class="precio">$41.300</span>
+            </div>
+            <div class="menu-item">
+                <img src="imagenes/sushi3.jpeg" alt="Sushi mixto">
+                <h3>Urimaki Maki</h3>
+                <p>Uramaki roll o rollo invertido</p>
+                <span class="precio">$36.000</span>
+            </div>
+        </div>
+    </section>
+
+    <section id="Reservas" class="Reservas-section">
+        <h2>Reserva tu mesa</h2>
+        <from class="reserva-form">
+            <input type="text" placeholder="Nombre Completo" required>
+            <input type="email" placeholder="Email">
+            <input type="tel" placeholder="Telefono">
+            <input type="date">
+            <input type="time">
+            <select>
+                <option value="">Numero de personas</option>
+                <option value="1">1 personas</option>
+                <option value="2">2 personas</option>
+                <option value="3">3 personas</option>
+                <option value="4">4 personas</option>
+                <option value="5">+5 personas</option>
+           </select>
+           <button type="submit" class="btn">Reservar</button>
+       </from>
+    </section>
+
+    <section id="Contacto" class="contacto-section">
+        <h2>Contacto</h2>
+        <div class="contacto-info">
+            <div>
+                <i class="fas fa-map-marker-alt"></i>
+                <p>Calle 67 # 5 - 27 Iberoamericana</p>
+            </div>
+            <div>
+                <i class="fas fa-phone"></i>
+                <p>3212080793</p>
+            </div>
+            <div>
+                <i class="fas fa-envelope"></i>
+                <p>rodriguezkgomez0316@gmail.com</p>
+            </div>
+        <div>
+    </section>
+
+    <footer>
+        <p>&copy; Sushizen. Todos los derechos reservados</p>
+    </footer>
